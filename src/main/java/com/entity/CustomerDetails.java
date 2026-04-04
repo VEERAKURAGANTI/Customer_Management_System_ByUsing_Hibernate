@@ -79,6 +79,4 @@ public String getGender() {
 public void setGender(String gender) {
 	this.gender = gender;
 }
-
-
 }
