@@ -26,6 +26,7 @@ public class CustomerDetails {
 	private String gender;
 public CustomerDetails()
 {}
+	
 public CustomerDetails(int customerId, String customerName, String customerEmail, String cPassword, long mobile,
 		String address, String gender) {
 	this.customerId = customerId;
