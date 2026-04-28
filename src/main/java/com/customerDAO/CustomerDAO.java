@@ -122,7 +122,7 @@ public class CustomerDAO {
 			System.out.println("Customer Mobile :"+customerDetails.getMobile());
 			System.out.println("Customer gender :"+customerDetails.getGender());
 			System.out.println("Customer Address:"+customerDetails.getAddress());
-			
+			System.out.println("---------------------------------------------------");
 		}
 	}
 }
