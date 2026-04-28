@@ -55,7 +55,7 @@ public class CustomerDAO {
 			System.out.println("Customer Details deleted");
 		}
 		else {
-			System.out.println("No date found");
+			System.out.println("No data found");
 		}
 		entityTransaction.commit();
 	}
