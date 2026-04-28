@@ -36,7 +36,7 @@ public class CustomerDAO {
 			System.out.println("Email Updated");
 		}
 		else {
-			System.out.println("No date found");
+			System.out.println("No data found");
 		}
 		entityTransaction.commit();
 	}
