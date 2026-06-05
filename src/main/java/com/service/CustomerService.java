@@ -15,7 +15,7 @@ public class CustomerService {
 		String cEmail = sc.next();
 		System.out.println("Enter the password:");
 		String password = sc.next();
-		System.out.println("Enter the Mobile no:");
+		System.out.println("Enter the Mobile number:");
 		long mobile = sc.nextLong();
 		System.out.println("Enter the address:");
 		String address = sc.next();
