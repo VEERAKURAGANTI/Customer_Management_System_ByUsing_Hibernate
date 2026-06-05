@@ -20,6 +20,7 @@ public class CustomerDAO {
 		System.out.println("Data inserted");
 		entityTransaction.commit();
 	}
+	
 	public void updateCustomerEmailByUsingcustomerId(int cId,String email)
 	{
 		String update="update CustomerDetails cust set cust.customerEmail=:emailId where cust.customerId=:cId";
