@@ -30,6 +30,7 @@ public class CustomerService {
 	    customerDetails.setGender(gender);
 	    customerDAO.insertCustomerDetais(customerDetails);
 	}
+	
 	public void updateCustomerEmailByUsingcustomerId()
 	{
 		System.out.println("Enter the Customer Id:");
@@ -38,24 +39,28 @@ public class CustomerService {
 		String email=sc.next();
 		customerDAO.updateCustomerEmailByUsingcustomerId(cId, email);
 	}
+	
 	public void delecteTheCustomerDetailsByUsingCustomerId()
 	{
 		System.out.println("Enter the customer Id:");
 		int cId=sc.nextInt();
 		customerDAO.delecteTheCustomerDetailsByUsingCustomerId(cId);
 	}
+	
 	public void selectCustomerDetailsByUsingCustomerId()
 	{
 		System.out.println("Enter the customer Id:");
 		int cId=sc.nextInt();
 		customerDAO.selectCustomerDetailsByUsingCustomerId(cId);
 	}
+	
 	public void selectCustomerDetailsByUsingMobileNumber()
 	{
 		System.out.println("Enter the Customer mobile No:");
 		long mobile=sc.nextLong();
 		customerDAO.selectCustomerDetailsByUsingMobileNumber(mobile);
 	}
+	
 	public void selectCustomerDetailsByUsingNameOrEmailOrGenderorAdderss()
 	{
 		System.out.println("Enter the Customer Name or Email Or Gender or Address :");
