@@ -41,6 +41,7 @@ public class CustomerDAO {
 		}
 		entityTransaction.commit();
 	}
+	
 	public void delecteTheCustomerDetailsByUsingCustomerId(int cId)
 	{
 		String delete="delete from CustomerDetails cust where cust.customerId=:cId ";
