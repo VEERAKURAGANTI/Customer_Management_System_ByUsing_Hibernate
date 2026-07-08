@@ -21,9 +21,7 @@ public class AppTest
         super( testName );
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
+  // 
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
