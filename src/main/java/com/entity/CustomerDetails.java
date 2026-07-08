@@ -26,6 +26,9 @@ public class CustomerDetails {
 	private String address;
 	@Column(name ="gender",nullable = false)
 	private String gender;
+	
+	public CustomerDetails()
+    { }
 
 	
 public CustomerDetails(int customerId, String customerName, String customerEmail, String cPassword, long mobile,
