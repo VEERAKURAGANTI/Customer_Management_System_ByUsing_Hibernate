@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
-// customer Entity
+
 @Entity
 public class CustomerDetails {
 	@Id
